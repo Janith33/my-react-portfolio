@@ -31,7 +31,7 @@ const About = () => {
               <div className="relative overflow-hidden rounded-2xl shadow-xl">
                 {/* Replace with actual image path when available */}
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+                  src="C:\Users\Acer\OneDrive\รูปภาพ\cropped-UME_0519 copy5.jpg"
                   alt="Janith Chandupa"
                   className="w-full h-auto object-cover"
                 />
