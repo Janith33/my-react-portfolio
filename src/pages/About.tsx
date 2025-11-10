@@ -47,7 +47,7 @@ const About = () => {
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
               Full Stack Developer from Sri Lanka
             </h2>
-            <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
+            <p className="text-base text-gray-700 dark:text-gray-300 mb-6">
               I'm a passionate full stack developer with a keen eye for design and a commitment to creating 
               intuitive, responsive web applications. With a strong foundation in modern JavaScript frameworks 
               and libraries, I specialize in building elegant, fast, and user-friendly interfaces and also back 
@@ -171,7 +171,7 @@ const About = () => {
                   </h3>
                 </div>
                 <p className="text-gray-700 dark:text-gray-300">
-                  UI/UX design, web accessibility, performance optimization, and exploring new frontend technologies.
+                  UI/UX design, web accessibility, performance optimization, and exploring new frontend  and  backend technologies.
                 </p>
               </div>
             </div>
