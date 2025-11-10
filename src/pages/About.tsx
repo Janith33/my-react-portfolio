@@ -29,9 +29,8 @@ const About = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl transform rotate-3 scale-105 opacity-30 blur-xl"></div>
               <div className="relative overflow-hidden rounded-2xl shadow-xl">
-                {/* Replace with actual image path when available */}
                 <img
-                  src="C:\Users\Acer\OneDrive\รูปภาพ\cropped-UME_0519 copy5.jpg"
+                  src="/profile-image.jpg"
                   alt="Janith Chandupa"
                   className="w-full h-auto object-cover"
                 />
