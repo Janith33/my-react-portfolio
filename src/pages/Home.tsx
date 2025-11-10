@@ -25,7 +25,7 @@ const Home = () => {
                 👋
               </h1>
               <h2 className="text-2xl md:text-3xl text-gray-700 dark:text-gray-300 mb-6">
-                A passionate Frontend Developer
+                A passionate Full Stack Developer
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-lg">
                 I build elegant, fast, and user-friendly web interfaces that deliver exceptional user experiences.
@@ -46,7 +46,7 @@ const Home = () => {
               </div>
               <div className="mt-8 flex space-x-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/Janith33"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-500 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400"
@@ -65,7 +65,7 @@ const Home = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/janith-chandupa-440664317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-500 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400"
@@ -80,7 +80,7 @@ const Home = () => {
                   </svg>
                 </a>
                 <a
-                  href="mailto:janith@example.com"
+                  href="mailto:janithchandupa6@gmail.com"
                   className="text-gray-500 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400"
                 >
                   <svg
@@ -127,10 +127,10 @@ const Home = () => {
                     </svg>
                   </div>
                   <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">
-                    Frontend Developer
+                    Full Stack Developer
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400 mb-6">
-                    Specializing in creating modern web applications with React
+                    Specializing in creating modern web applications with React and Node.js with Express.js
                   </p>
                   <div className="flex flex-wrap justify-center gap-2">
                     <span className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full text-sm">
@@ -140,7 +140,7 @@ const Home = () => {
                       TypeScript
                     </span>
                     <span className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full text-sm">
-                      Tailwind CSS
+                      Node.js/Express.js
                     </span>
                     <span className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full text-sm">
                       Next.js

@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
           </div>
           <div className="flex space-x-6">
             <a
-              href="https://github.com"
+              href="https://github.com/Janith33"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400"
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
               </svg>
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/janith-chandupa-440664317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-500 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400"
@@ -48,7 +48,7 @@ const Footer: React.FC = () => {
               </svg>
             </a>
             <a
-              href="mailto:janith@example.com"
+              href="mailto:janithchandupa6@gmail.com"
               className="text-gray-500 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400"
             >
               <span className="sr-only">Email</span>

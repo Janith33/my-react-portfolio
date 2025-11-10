@@ -1,15 +1,17 @@
-import { useState } from 'react';
-import { motion } from 'framer-motion';
+import { useState } from "react";
+import { motion } from "framer-motion";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
@@ -20,10 +22,10 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // In a real application, you would send the form data to a backend
-    console.log('Form submitted:', formData);
+    console.log("Form submitted:", formData);
     setIsSubmitted(true);
-    setFormData({ name: '', email: '', message: '' });
-    
+    setFormData({ name: "", email: "", message: "" });
+
     // Reset the submission status after 5 seconds
     setTimeout(() => {
       setIsSubmitted(false);
@@ -45,7 +47,8 @@ const Contact = () => {
           className="text-center mb-12"
         >
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            Get In <span className="text-indigo-600 dark:text-indigo-400">Touch</span>
+            Get In{" "}
+            <span className="text-indigo-600 dark:text-indigo-400">Touch</span>
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
             Have a question or want to work together? Feel free to reach out!
@@ -63,7 +66,7 @@ const Contact = () => {
               <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
                 Send Me a Message
               </h2>
-              
+
               {isSubmitted ? (
                 <motion.div
                   initial={{ opacity: 0, y: 10 }}
@@ -73,7 +76,7 @@ const Contact = () => {
                   Thank you for your message! I'll get back to you soon.
                 </motion.div>
               ) : null}
-              
+
               <form onSubmit={handleSubmit}>
                 <div className="mb-6">
                   <label
@@ -170,15 +173,15 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+                    <h3 className="text-lg font-medium text-gray-800 dark:text-white -ml-6">
                       Email
                     </h3>
                     <p className="text-gray-600 dark:text-gray-400">
                       <a
-                        href="mailto:janith@example.com"
+                        href="mailto:janithchandupa6@gmail.com"
                         className="hover:text-indigo-600 dark:hover:text-indigo-400"
                       >
-                        janith@example.com
+                        janithchandupa6@gmail.com
                       </a>
                     </p>
                   </div>
@@ -214,7 +217,7 @@ const Contact = () => {
                       Location
                     </h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Colombo, Sri Lanka
+                      Vavuniya, Sri Lanka.
                     </p>
                   </div>
                 </div>
@@ -225,7 +228,7 @@ const Contact = () => {
                   </h3>
                   <div className="flex space-x-4">
                     <a
-                      href="https://github.com"
+                      href="https://github.com/Janith33"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 p-3 rounded-full text-gray-700 dark:text-gray-300 transition-colors duration-300"
@@ -244,7 +247,7 @@ const Contact = () => {
                       </svg>
                     </a>
                     <a
-                      href="https://linkedin.com"
+                      href="https://www.linkedin.com/in/janith-chandupa-440664317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 p-3 rounded-full text-gray-700 dark:text-gray-300 transition-colors duration-300"

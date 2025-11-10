@@ -45,12 +45,13 @@ const About = () => {
             transition={{ delay: 0.4 }}
           >
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
-              Frontend Developer from Sri Lanka
+              Full Stack Developer from Sri Lanka
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-              I'm a passionate frontend developer with a keen eye for design and a commitment to creating 
+              I'm a passionate full stack developer with a keen eye for design and a commitment to creating 
               intuitive, responsive web applications. With a strong foundation in modern JavaScript frameworks 
-              and libraries, I specialize in building elegant, fast, and user-friendly interfaces.
+              and libraries, I specialize in building elegant, fast, and user-friendly interfaces and also back 
+              end experience.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -89,7 +90,7 @@ const About = () => {
                   </h3>
                 </div>
                 <p className="text-gray-700 dark:text-gray-300">
-                  BSc in Computer Science, with a focus on web technologies and user interface design.
+                  Bachelor of Information and Communication Technology Honours in University of Vavuniya, with a focus on web technologies and user interface design and back end of the web application.
                 </p>
               </div>
 
@@ -116,7 +117,7 @@ const About = () => {
                   </h3>
                 </div>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Frontend Intern experience working with React, building responsive web applications and collaborating with design teams.
+                  Front End and Back End experience with doing individual and group project, building responsive web application and collaborations with modern design terms.
                 </p>
               </div>
 
@@ -143,7 +144,7 @@ const About = () => {
                   </h3>
                 </div>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Currently expanding my skills in Next.js and TypeScript to build more robust and type-safe applications.
+                  Currently expanding my skills in Next.js and TypeScript to build more robust and type-safe applications. And also I still learning about node.js/express.js and react.Currently expanding my skills in Next.js and TypeScript to build more robust and type-safe applications.
                 </p>
               </div>
 
