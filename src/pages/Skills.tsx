@@ -1,6 +1,6 @@
-import { motion } from 'framer-motion';
-import SkillBadge from '../components/SkillBadge';
-import { skills } from '../data/skills';
+import { motion } from "framer-motion";
+import SkillBadge from "../components/SkillBadge";
+import { skills } from "../data/skills";
 
 const Skills = () => {
   return (
@@ -18,10 +18,12 @@ const Skills = () => {
           className="text-center mb-12"
         >
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-            My <span className="text-indigo-600 dark:text-indigo-400">Skills</span>
+            My{" "}
+            <span className="text-indigo-600 dark:text-indigo-400">Skills</span>
           </h1>
           <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Here are the technologies and tools I specialize in. I'm constantly learning and expanding my skill set.
+            Here are the technologies and tools I specialize in. I'm constantly
+            learning and expanding my skill set.
           </p>
         </motion.div>
 
@@ -31,6 +33,7 @@ const Skills = () => {
               key={skill.id}
               name={skill.name}
               icon={skill.icon}
+              image={skill.image}
               level={skill.level}
               index={index}
             />
