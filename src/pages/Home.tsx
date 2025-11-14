@@ -4,10 +4,11 @@ import { motion } from 'framer-motion';
 const Home = () => {
   return (
     <motion.div
+      id="home"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="min-h-screen flex flex-col justify-center"
+      className="h-screen snap-start flex flex-col justify-center"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
         <div className="flex flex-col md:flex-row items-center">

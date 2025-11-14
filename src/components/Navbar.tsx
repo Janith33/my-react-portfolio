@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 interface NavbarProps {
   theme: string;
@@ -9,22 +9,25 @@ interface NavbarProps {
 
 const Navbar = ({ theme, toggleTheme }: NavbarProps) => {
   const [isOpen, setIsOpen] = useState(false);
-  const location = useLocation();
+  const scrollTo = (id: string) => {
+    const el = document.getElementById(id);
+    if (el) el.scrollIntoView({ behavior: "smooth" });
+  };
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   const navLinks = [
-    { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
-    { name: 'Projects', path: '/projects' },
-    { name: 'Skills', path: '/skills' },
-    { name: 'Contact', path: '/contact' },
+    { name: "Home", id: "home" },
+    { name: "About", id: "about" },
+    { name: "Projects", id: "projects" },
+    { name: "Skills", id: "skills" },
+    { name: "Contact", id: "contact" },
   ];
 
   return (
-    <nav className="sticky top-0 z-50 bg-white dark:bg-gray-800 shadow-md">
+    <nav className="fixed top-0 left-0 right-0 z-50 w-full bg-white dark:bg-gray-800 shadow-md">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
@@ -39,17 +42,13 @@ const Navbar = ({ theme, toggleTheme }: NavbarProps) => {
           <div className="hidden md:flex items-center space-x-4">
             <div className="flex space-x-4">
               {navLinks.map((link) => (
-                <Link
+                <button
                   key={link.name}
-                  to={link.path}
-                  className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${
-                    location.pathname === link.path
-                      ? 'text-indigo-600 dark:text-indigo-400'
-                      : 'text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400'
-                  }`}
+                  onClick={() => scrollTo(link.id)}
+                  className="px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 text-gray-700 dark:text-gray-300 hover:text-indigo-600 dark:hover:text-indigo-400"
                 >
                   {link.name}
-                </Link>
+                </button>
               ))}
             </div>
 
@@ -59,7 +58,7 @@ const Navbar = ({ theme, toggleTheme }: NavbarProps) => {
               className="p-2 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none"
               aria-label="Toggle dark mode"
             >
-              {theme === 'dark' ? (
+              {theme === "dark" ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"
@@ -92,7 +91,7 @@ const Navbar = ({ theme, toggleTheme }: NavbarProps) => {
               className="mr-2 p-2 rounded-full text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none"
               aria-label="Toggle dark mode"
             >
-              {theme === 'dark' ? (
+              {theme === "dark" ? (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-5 w-5"
@@ -171,18 +170,16 @@ const Navbar = ({ theme, toggleTheme }: NavbarProps) => {
         >
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             {navLinks.map((link) => (
-              <Link
+              <button
                 key={link.name}
-                to={link.path}
-                className={`block px-3 py-2 rounded-md text-base font-medium ${
-                  location.pathname === link.path
-                    ? 'text-indigo-600 dark:text-indigo-400 bg-gray-100 dark:bg-gray-700'
-                    : 'text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-indigo-600 dark:hover:text-indigo-400'
-                }`}
-                onClick={() => setIsOpen(false)}
+                onClick={() => {
+                  scrollTo(link.id);
+                  setIsOpen(false);
+                }}
+                className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:text-indigo-600 dark:hover:text-indigo-400"
               >
                 {link.name}
-              </Link>
+              </button>
             ))}
           </div>
         </motion.div>
