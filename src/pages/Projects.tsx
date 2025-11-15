@@ -9,7 +9,8 @@ const Projects = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="h-screen snap-start py-8 overflow-y-auto"
+      className="min-h-screen snap-start py-8 overflow-y-auto overscroll-contain"
+      style={{ touchAction: 'pan-y' }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -26,7 +27,7 @@ const Projects = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <ProjectCard
               key={project.id}
@@ -36,6 +37,7 @@ const Projects = () => {
           ))}
         </div>
       </div>
+      <div className="w-240 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto my-12 rounded-full" />
     </motion.div>
   );
 };

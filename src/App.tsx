@@ -44,13 +44,13 @@ function App() {
     <Router>
       <div className="flex flex-col min-h-screen overflow-x-hidden bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-300">
         <Navbar theme={theme} toggleTheme={toggleTheme} />
-        <main className="flex-grow overflow-y-auto snap-y snap-mandatory scroll-smooth h-screen pt-16 scroll-pt-16">
+        <main className="flex-grow overflow-y-auto snap-y snap-mandatory scroll-smooth pt-16 scroll-pt-16">
           <Home />
           <About />
           <Projects />
           <Skills />
           <Contact />
-          <div id="footer" className="h-screen snap-start">
+          <div id="footer" className="snap-start">
             <Footer />
           </div>
         </main>
