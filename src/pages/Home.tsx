@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
@@ -18,23 +18,24 @@ const Home = () => {
               transition={{ delay: 0.2 }}
             >
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4">
-                Hi, I'm{' '}
+                Hi, I'm{" "}
                 <span className="text-indigo-600 dark:text-indigo-400">
                   Janith Chandupa
-                </span>{' '}
+                </span>{" "}
                 👋
               </h1>
               <h2 className="text-2xl md:text-3xl text-gray-700 dark:text-gray-300 mb-6">
                 A passionate Full Stack Developer
               </h2>
               <p className="text-lg text-gray-600 dark:text-gray-400 mb-8 max-w-lg">
-                I build elegant, fast, and user-friendly web interfaces that deliver exceptional user experiences.
+                I build elegant, fast, and user-friendly web interfaces that
+                deliver exceptional user experiences.
               </p>
               <div className="flex flex-wrap gap-4">
                 <button
                   onClick={() => {
-                    const el = document.getElementById('projects');
-                    if (el) el.scrollIntoView({ behavior: 'smooth' });
+                    const el = document.getElementById("projects");
+                    if (el) el.scrollIntoView({ behavior: "smooth" });
                   }}
                   className="px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-2xl transition-colors duration-300 shadow-md hover:shadow-lg"
                 >
@@ -42,8 +43,8 @@ const Home = () => {
                 </button>
                 <button
                   onClick={() => {
-                    const el = document.getElementById('contact');
-                    if (el) el.scrollIntoView({ behavior: 'smooth' });
+                    const el = document.getElementById("contact");
+                    if (el) el.scrollIntoView({ behavior: "smooth" });
                   }}
                   className="px-6 py-3 bg-white dark:bg-gray-800 text-indigo-600 dark:text-indigo-400 font-medium rounded-2xl border border-indigo-600 dark:border-indigo-400 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors duration-300 shadow-md hover:shadow-lg"
                 >
@@ -136,7 +137,8 @@ const Home = () => {
                     Full Stack Developer
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400 mb-6">
-                    Specializing in creating modern web applications with React and Node.js with Express.js
+                    Specializing in creating modern web applications with React
+                    and Node.js with Express.js
                   </p>
                   <div className="flex flex-wrap justify-center gap-2">
                     <span className="px-3 py-1 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full text-sm">
@@ -157,8 +159,8 @@ const Home = () => {
             </div>
           </motion.div>
         </div>
+        <div className="w-250 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto my-12 rounded-full" />
       </div>
-    <div className="w-240 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto my-12 rounded-full" />
     </motion.div>
   );
 };
