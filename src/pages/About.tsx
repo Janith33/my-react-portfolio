@@ -30,9 +30,9 @@ const About = () => {
           >
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl transform rotate-3 scale-105 opacity-30 blur-xl"></div>
-              <div className="relative overflow-hidden rounded-2xl shadow-xl">
+              <div className="relative overflow-hidden rounded-3xl shadow-xl">
                 <img
-                  src="/profile-image.jpg"
+                  src="/profile.png"
                   alt="Janith Chandupa"
                   className="w-full h-auto object-cover"
                 />
@@ -60,7 +60,7 @@ const About = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-md">
                 <div className="flex items-center mb-4">
-                  <div className="bg-indigo-100 dark:bg-indigo-900 p-3 rounded-full mr-4">
+                  <div className="bg-indigo-100 dark:bg-green-900 p-3 rounded-full mr-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-6 w-6 text-indigo-600 dark:text-indigo-400"

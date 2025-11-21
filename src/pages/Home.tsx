@@ -159,7 +159,7 @@ const Home = () => {
             </div>
           </motion.div>
         </div>
-        <div className="w-250 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto my-12 rounded-full" />
+        {/*<div className="w-250 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto my-12 rounded-full" />*/}
       </div>
     </motion.div>
   );
