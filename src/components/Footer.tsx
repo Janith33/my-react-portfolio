@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-white dark:bg-gray-800 shadow-inner">
-      <div className="max-w-7xl mx-auto py-10 px-4 sm:px-6 lg:px-8">
+    <footer className="w-full bg-white dark:bg-gray-800 shadow-inner">
+      <div className="w-full py-10 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-gray-600 dark:text-gray-400">
