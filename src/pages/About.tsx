@@ -34,11 +34,11 @@ const About = () => {
                 <img
                   src="/profile.png"
                   alt="Janith Chandupa"
-                  className="w-full h-auto object-cover"
+                  className="w-full h-full"
                 />
               </div>
             </div>
-          </motion.div>
+          </motion.div> 
 
           <motion.div
             className="md:w-2/3"

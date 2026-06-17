@@ -9,8 +9,7 @@ const Skills = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="min-h-screen snap-start py-8 overflow-y-auto overscroll-contain"
-      style={{ touchAction: 'pan-y' }}
+      className="min-h-screen snap-start flex flex-col justify-center py-8"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
@@ -29,7 +28,7 @@ const Skills = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-7">
           {skills.map((skill, index) => (
             <SkillBadge
               key={skill.id}
