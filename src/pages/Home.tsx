@@ -9,7 +9,7 @@ const Home = () => {
       exit={{ opacity: 0 }}
       className="min-h-screen snap-start flex flex-col justify-center"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-10">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <motion.div
@@ -22,7 +22,6 @@ const Home = () => {
                 <span className="text-indigo-600 dark:text-indigo-400">
                   Janith Chandupa
                 </span>{" "}
-                👋
               </h1>
               <h2 className="text-2xl md:text-3xl text-gray-700 dark:text-gray-300 mb-6">
                 A passionate Full Stack Developer
