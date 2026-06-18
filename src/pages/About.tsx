@@ -7,9 +7,9 @@ const About = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
-      className="min-h-screen snap-start py-16"
+      className="min-h-screen snap-start py-10"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-10xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ y: -20 }}
           animate={{ y: 0 }}
@@ -34,11 +34,11 @@ const About = () => {
                 <img
                   src="/profile.png"
                   alt="Janith Chandupa"
-                  className="w-full h-auto object-cover"
+                  className="w-full h-full"
                 />
               </div>
             </div>
-          </motion.div>
+          </motion.div> 
 
           <motion.div
             className="md:w-2/3"
