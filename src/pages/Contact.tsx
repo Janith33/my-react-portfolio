@@ -149,7 +149,7 @@ const Contact = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 h-full">
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 h-150%">
               <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
                 Contact Information
               </h2>
@@ -180,7 +180,7 @@ const Contact = () => {
                     <p className="text-gray-600 dark:text-gray-400">
                       <a
                         href="mailto:janithchandupa6@gmail.com"
-                        className="hover:text-indigo-600 dark:hover:text-indigo-400"
+                        className="hover:text-indigo-400 dark:hover:text-indigo-400"
                       >
                         janithchandupa6@gmail.com
                       </a>
