@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, ChangeEvent, FormEventHandler } from "react";
 import { motion } from "framer-motion";
 
 const Contact = () => {
@@ -10,7 +10,7 @@ const Contact = () => {
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -19,7 +19,7 @@ const Contact = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit: FormEventHandler = (e) => {
     e.preventDefault();
     // In a real application, you would send the form data to a backend
     console.log("Form submitted:", formData);
