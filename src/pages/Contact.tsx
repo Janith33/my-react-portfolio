@@ -1,4 +1,4 @@
-import { useState, ChangeEvent, FormEventHandler } from "react";
+import { useState, ChangeEventHandler, FormEventHandler } from "react";
 import { motion } from "framer-motion";
 
 const Contact = () => {
@@ -9,9 +9,7 @@ const Contact = () => {
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleChange = (
-    e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
+  const handleChange: ChangeEventHandler<HTMLInputElement | HTMLTextAreaElement> = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
       ...prev,
