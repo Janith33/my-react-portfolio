@@ -38,11 +38,11 @@ export const projects: Project[] = [
   },
   {
     id: 4,
-    title: "Social Media Analytics",
+    title: "Planify Online Event Planning",
     description: "A dashboard for tracking and analyzing social media engagement metrics across multiple platforms.",
-    image: "https://via.placeholder.com/600x400?text=Social+Media+Analytics",
-    technologies: ["React", "D3.js", "Node.js", "Express", "Social Media APIs"],
-    githubUrl: "https://github.com/janithchandupa/social-analytics",
+    image: "planify.png",
+    technologies: ["React", "CSS", "Node.js", "Express", "MongoDB"],
+    githubUrl: "https://github.com/Janith33/Planify",
     liveUrl: "https://analytics.janithchandupa.com"
   },
   {
