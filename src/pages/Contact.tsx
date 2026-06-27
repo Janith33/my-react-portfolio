@@ -262,7 +262,7 @@ const Contact = () => {
                       </svg>
                     </a>
                     <a
-                      href="https://twitter.com"
+                      href="https://x.com/chandupa_janith"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 p-3 rounded-full text-gray-700 dark:text-gray-300 transition-colors duration-300"
