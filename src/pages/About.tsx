@@ -1,19 +1,55 @@
 import { motion } from "framer-motion";
 
+{/*const containerVariants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.15,
+      delay: 0.2,
+    },
+  },
+  exit:{
+    opacity: 0,
+    transition:{
+      duration: 0.5
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.5,
+      type: "spring",
+      stiffness: 120,
+      damping: 12,
+    },
+  },
+};*/}
+
+
 const About = () => {
   return (
     <motion.div
       id="about"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
+      //variants={containerVariants}
+      initial="hidden"
+      animate="visible"
+      //exit="exit"
       className="min-h-screen snap-start py-10"
-    >
+    > 
       <div className="max-w-10xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
-          initial={{ y: -20 }}
-          animate={{ y: 0 }}
-          transition={{ delay: 0.2 }}
+          //variants={itemVariants}
+          initial="hidden"
+          animate="visible"
+          transition={{
+            delay: 0.2,
+          }}
         >
           <h1 className="text-4xl font-bold text-center text-gray-900 dark:text-white mb-12">
             About{" "}
@@ -190,7 +226,6 @@ const About = () => {
           </motion.div>
         </div>
       </div>
-    <div className="w-240 h-1 bg-gradient-to-r from-indigo-500 to-purple-600 mx-auto my-12 rounded-full" />
     </motion.div>
   );
 };

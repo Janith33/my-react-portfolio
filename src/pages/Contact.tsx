@@ -60,8 +60,9 @@ const Contact = () => {
             initial={{ x: -50, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.3 }}
+            //style={{height: "150%"}}
           >
-            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8">
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 h-[100%]">
               <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
                 Send Me a Message
               </h2>
@@ -172,15 +173,15 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="ml-4">
-                    <h3 className="text-lg font-medium text-gray-800 dark:text-white -ml-6">
+                    <h3 className="text-lg font-medium text-gray-800 dark:text-white -ml-0.5">
                       Email
                     </h3>
                     <p className="text-gray-600 dark:text-gray-400">
                       <a
-                        href="mailto:janithchandupa6@gmail.com"
+                        href="mailto:handuwala33@gmail.com"
                         className="hover:text-indigo-400 dark:hover:text-indigo-400"
                       >
-                        janithchandupa6@gmail.com
+                        handuwala33@gmail.com
                       </a>
                     </p>
                   </div>
@@ -216,7 +217,7 @@ const Contact = () => {
                       Location
                     </h3>
                     <p className="text-gray-600 dark:text-gray-400">
-                      Vavuniya, Sri Lanka.
+                      Kirindiwela, Gampaha, Sri Lanka.
                     </p>
                   </div>
                 </div>

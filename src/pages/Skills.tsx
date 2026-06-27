@@ -22,13 +22,13 @@ const Skills = () => {
             My{" "}
             <span className="text-indigo-600 dark:text-indigo-400">Skills</span>
           </h1>
-          <p className="text-lg text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-400  mx-auto">
             Here are the technologies and tools I specialize in. I'm constantly
             learning and expanding my skill set.
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-7">
+        <div className="grid grid-cols-6 sm:grid-cols-6 md:grid-cols-4 lg:grid-cols-6 gap-20">
           {skills.map((skill, index) => (
             <SkillBadge
               key={skill.id}
