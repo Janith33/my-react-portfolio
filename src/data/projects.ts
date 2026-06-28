@@ -25,7 +25,7 @@ export const projects: Project[] = [
     image: "billing-management.jpg",
     technologies: ["HTML", "CSS", "JavaScript"],
     githubUrl: "https://github.com/Janith33/Bill-Management-System",
-    liveUrl: "https://taskmanager.janithchandupa.com"
+    liveUrl: ""
   },
   {
     id: 3,
@@ -34,23 +34,23 @@ export const projects: Project[] = [
     image: "weatherapp.png",
     technologies: ["HTML", "OpenWeather API", "javascript", "CSS"],
     githubUrl: "https://github.com/Janith33/Weather-App",
-    liveUrl: "weather-app-three-dusky-33.vercel.app"
+    liveUrl: ""
   },
   {
     id: 4,
     title: "Planify Online Event Planning",
-    description: "A dashboard for tracking and analyzing social media engagement metrics across multiple platforms.",
+    description: "A online platform for planning to arrange the events as much as to customers.",
     image: "planify.png",
     technologies: ["React", "CSS", "Node.js", "Express", "MongoDB"],
     githubUrl: "https://github.com/Janith33/Planify",
-    liveUrl: "https://analytics.janithchandupa.com"
+    liveUrl: ""
   },
   {
     id: 5,
     title: "Portfolio Website",
     description: "A personal portfolio website showcasing my projects, skills, and professional experience.",
     image: "website.png",
-    technologies: ["React", "TypeScript", "Vite"],
+    technologies: ["React", "TypeScript", "Vite", "Tailwind CSS"],
     githubUrl: "https://github.com/Janith33/my-react-portfolio",
     liveUrl: "my-react-portfolio-chi-three.vercel.app"
   },
