@@ -28,7 +28,7 @@ const Skills = () => {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-6 sm:grid-cols-6 md:grid-cols-4 lg:grid-cols-6 gap-20">
+        <div className="grid grid-cols-6 sm:grid-cols-6  md:grid-cols-6 lg:grid-cols-6 gap-20">
           {skills.map((skill, index) => (
             <SkillBadge
               key={skill.id}

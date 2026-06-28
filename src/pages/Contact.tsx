@@ -93,7 +93,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
-                    placeholder="Your name"
+                    placeholder="Your Name"
                   />
                 </div>
                 <div className="mb-6">
@@ -111,7 +111,7 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
-                    placeholder="your.email@example.com"
+                    placeholder="youremail@example.com"
                   />
                 </div>
                 <div className="mb-6">
@@ -127,7 +127,7 @@ const Contact = () => {
                     value={formData.message}
                     onChange={handleChange}
                     required
-                    rows={5}
+                    rows={3}
                     className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-white"
                     placeholder="Your message..."
                   ></textarea>
@@ -148,7 +148,7 @@ const Contact = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-8 h-150%">
+            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 h-150%">
               <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6 text-center">
                 CONTACT INFORMATION
               </h2>

@@ -21,7 +21,7 @@ const SkillBadge = ({ name, icon, image, level, index }: SkillBadgeProps) => {
         <img
           src={image}
           alt={name}
-          className="w-12 h-12 mb-3 object-contain"
+          className="w-12 h-12 mb-3 object-contain" 
         />
       ) : (
         <div className="text-4xl mb-3" dangerouslySetInnerHTML={{ __html: icon }} />
