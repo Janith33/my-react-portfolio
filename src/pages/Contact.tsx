@@ -63,8 +63,8 @@ const Contact = () => {
             //style={{height: "150%"}}
           >
             <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 h-[100%]">
-              <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
-                Send Me a Message
+              <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6 text-center">
+                SEND ME A MESSAGE
               </h2>
 
               {isSubmitted ? (
@@ -148,9 +148,9 @@ const Contact = () => {
             animate={{ x: 0, opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-8 h-150%">
-              <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6">
-                Contact Information
+            <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg p-8 h-150%">
+              <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-6 text-center">
+                CONTACT INFORMATION
               </h2>
               <div className="space-y-6">
                 <div className="flex items-start">
@@ -273,7 +273,7 @@ const Contact = () => {
                         viewBox="0 0 24 24"
                         aria-hidden="true"
                       >
-                        <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
+                        <path d="M14.234 10.162 22.977 0h-2.072l-7.591 8.824L7.251 0H.258l9.168 13.343L.258 24H2.33l8.016-9.318L16.749 24h6.993zm-2.837 3.299-.929-1.329L3.076 1.56h3.182l5.965 8.532.929 1.329 7.754 11.09h-3.182z" />
                       </svg>
                     </a>
                   </div>
