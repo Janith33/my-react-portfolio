@@ -94,9 +94,9 @@ const About = () => {
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-              <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-md">
+              <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-md   bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-900">
                 <div className="flex items-center mb-4">
-                  <div className="bg-indigo-100 dark:bg-green-900 p-3 rounded-full mr-4">
+                  <div className="bg-indigo-100 dark:bg-green-900 p-3 rounded-full mr-4"  >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       className="h-6 w-6 text-indigo-600 dark:text-indigo-400"
@@ -135,7 +135,7 @@ const About = () => {
                 </p>
               </div>
 
-              <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-md">
+              <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-md    bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-900">
                 <div className="flex items-center mb-4">
                   <div className="bg-indigo-100 dark:bg-indigo-900 p-3 rounded-full mr-4">
                     <svg
@@ -164,7 +164,7 @@ const About = () => {
                 </p>
               </div>
 
-              <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-md">
+              <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-md    bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-900">
                 <div className="flex items-center mb-4">
                   <div className="bg-indigo-100 dark:bg-indigo-900 p-3 rounded-full mr-4">
                     <svg
@@ -187,16 +187,14 @@ const About = () => {
                   </h3>
                 </div>
                 <p className="text-gray-700 dark:text-gray-300">
-                  Currently expanding my skills in Next.js and TypeScript to
+                  Currently expanding my skills in Next.js ,TypeScript and tailwindcss to
                   build more robust and type-safe applications. And also I still
-                  learning about node.js/express.js and react.Currently
-                  expanding my skills in Next.js and TypeScript to build more
-                  robust and type-safe applications.
+                  learning about node.js/express.js and react.
                 </p>
               </div>
 
-              <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-md">
-                <div className="flex items-center mb-4">
+              <div className="bg-white dark:bg-gray-800 rounded-2xl p-6 shadow-md   bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-900">
+                <div className="flex items-center mb-4   ">
                   <div className="bg-indigo-100 dark:bg-indigo-900 p-3 rounded-full mr-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -219,7 +217,8 @@ const About = () => {
                 </div>
                 <p className="text-gray-700 dark:text-gray-300">
                   UI/UX design, web accessibility, performance optimization, and
-                  exploring new frontend and backend technologies.
+                  exploring new frontend and backend technologies. Analyzing modern web 
+                  Applications and security feartures.
                 </p>
               </div>
             </div>

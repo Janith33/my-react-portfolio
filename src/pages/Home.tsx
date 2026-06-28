@@ -71,7 +71,7 @@ const Home = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/janith-chandupa-440664317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  href="https://www.linkedin.com/in/janith-chandupa-440664317"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-500 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400"
@@ -86,7 +86,7 @@ const Home = () => {
                   </svg>
                 </a>
                 <a
-                  href="mailto:janithchandupa6@gmail.com"
+                  href="mailto:handuwala33@gmail.com"
                   className="text-gray-500 hover:text-indigo-600 dark:text-gray-400 dark:hover:text-indigo-400"
                 >
                   <svg
