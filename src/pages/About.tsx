@@ -131,7 +131,7 @@ const About = () => {
                 <p className="text-gray-700 dark:text-gray-300">
                   Bachelor of Information and Communication Technology Honours
                   in University of Vavuniya, with a focus on web technologies
-                  and user interface design and back end of the web application.
+                  and user interface design and backend of the web application.
                 </p>
               </div>
 
@@ -189,7 +189,7 @@ const About = () => {
                 <p className="text-gray-700 dark:text-gray-300">
                   Currently expanding my skills in Next.js ,TypeScript and tailwindcss to
                   build more robust and type-safe applications. And also I still
-                  learning about node.js/express.js and react.
+                  learning about node.js/express.js and react. 
                 </p>
               </div>
 

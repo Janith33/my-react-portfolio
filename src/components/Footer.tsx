@@ -2,16 +2,16 @@
 
 const Footer = () => {
   return (
-    <footer className="absolute  left-0 right-0 w-full bg-white dark:bg-gray-800 shadow-inner">
-      <div className="w-full py-4 px-4 sm:px-6 lg:px-8">
-        <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="mb-4 md:mb-0">
+    <footer className="absolute  left-0 right-0 w-full bg-white dark:bg-gray-800 shadow-inner opacity-1">
+      <div className="w-full py-20 px-4 sm:px-6 lg:px-8 shadow-inner ">
+        <div className="flex flex-col items-center justify-center space-y-6">
+          <div className="text-center">
+            <h1 className="text-3xl font-bold text-black dark:text-white mb-10">Janith Chandupa</h1>
             <p className="text-gray-600 dark:text-gray-400">
               © {new Date().getFullYear()} Janith Chandupa. All rights reserved.
-              <p>Version: 1.0.0</p>
             </p>
           </div>
-          <div className="flex space-x-6">
+          <div className="flex justify-center space-x-6">
             <a
               href="https://github.com/Janith33"
               target="_blank"

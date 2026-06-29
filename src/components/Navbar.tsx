@@ -27,7 +27,7 @@ const Navbar = ({ theme, toggleTheme }: NavbarProps) => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 w-full bg-white dark:bg-gray-800 shadow-md">
+    <nav className="fixed top-0 left-0 right-0 z-50 w-full bg-white dark:bg-gray-800 shadow-md opacity-75">
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
